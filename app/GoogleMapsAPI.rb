@@ -1,0 +1,2 @@
+class GoogleMapsAPI
+end
