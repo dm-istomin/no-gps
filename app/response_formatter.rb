@@ -6,7 +6,7 @@ class ResponseFormatter
   end
 
   def status_ok?
-    return google_api_data["status"] == "OK"
+    google_api_data["status"] == "OK" || false
   end
 
 end
