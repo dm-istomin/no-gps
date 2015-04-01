@@ -1,0 +1,2 @@
+class ResponseFormatter
+end
