@@ -3,160 +3,112 @@
       {
          "bounds" : {
             "northeast" : {
-               "lat" : 40.7499463,
-               "lng" : -73.8083834
+               "lat" : 40.759211,
+               "lng" : -73.98439759999999
             },
             "southwest" : {
-               "lat" : 40.675579,
-               "lng" : -73.94821999999999
+               "lat" : 40.7063932,
+               "lng" : -74.010351
             }
          },
          "copyrights" : "Map data ©2015 Google",
          "legs" : [
             {
                "arrival_time" : {
-                  "text" : "8:14pm",
+                  "text" : "7:10pm",
                   "time_zone" : "America/New_York",
-                  "value" : 1427847241
+                  "value" : 1427929844
                },
                "departure_time" : {
-                  "text" : "7:24pm",
+                  "text" : "6:49pm",
                   "time_zone" : "America/New_York",
-                  "value" : 1427844274
+                  "value" : 1427928590
                },
                "distance" : {
-                  "text" : "16.0 mi",
-                  "value" : 25714
+                  "text" : "4.2 mi",
+                  "value" : 6704
                },
                "duration" : {
-                  "text" : "49 mins",
-                  "value" : 2967
+                  "text" : "21 mins",
+                  "value" : 1254
                },
-               "end_address" : "Queens, NY, USA",
+               "end_address" : "Theater District, New York, NY, USA",
                "end_location" : {
-                  "lat" : 40.7499463,
-                  "lng" : -73.86682759999999
+                  "lat" : 40.7591131,
+                  "lng" : -73.98439759999999
                },
-               "start_address" : "Brooklyn, NY, USA",
+               "start_address" : "37 Wall Street, New York, NY 10005, USA",
                "start_location" : {
-                  "lat" : 40.678183,
-                  "lng" : -73.94416129999999
+                  "lat" : 40.7066744,
+                  "lng" : -74.00998629999999
                },
                "steps" : [
                   {
                      "distance" : {
-                        "text" : "0.2 mi",
-                        "value" : 341
+                        "text" : "308 ft",
+                        "value" : 94
                      },
                      "duration" : {
-                        "text" : "4 mins",
-                        "value" : 266
+                        "text" : "1 min",
+                        "value" : 70
                      },
                      "end_location" : {
-                        "lat" : 40.67838,
-                        "lng" : -73.94821999999999
+                        "lat" : 40.706821,
+                        "lng" : -74.0091
                      },
-                     "html_instructions" : "Walk to Nostrand Avenue",
+                     "html_instructions" : "Walk to Wall St",
                      "polyline" : {
-                        "points" : "s}gwF~eibMP@[hPMAC`AEvAAj@?JCn@"
+                        "points" : "uomwFlavbMv@{AAEACACACACWSYWYS"
                      },
                      "start_location" : {
-                        "lat" : 40.678183,
-                        "lng" : -73.94416129999999
+                        "lat" : 40.7066744,
+                        "lng" : -74.00998629999999
                      },
                      "steps" : [
                         {
                            "distance" : {
-                              "text" : "33 ft",
-                              "value" : 10
+                              "text" : "164 ft",
+                              "value" : 50
                            },
                            "duration" : {
                               "text" : "1 min",
-                              "value" : 8
+                              "value" : 35
                            },
                            "end_location" : {
-                              "lat" : 40.6780899,
-                              "lng" : -73.9441714
+                              "lat" : 40.7063932,
+                              "lng" : -74.0095309
                            },
-                           "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e on \u003cb\u003eBrooklyn Ave\u003c/b\u003e toward \u003cb\u003eAtlantic Ave\u003c/b\u003e",
+                           "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e on \u003cb\u003eWall St\u003c/b\u003e toward \u003cb\u003eWilliam St\u003c/b\u003e",
                            "polyline" : {
-                              "points" : "s}gwF~eibMP@"
+                              "points" : "uomwFlavbMv@{A"
                            },
                            "start_location" : {
-                              "lat" : 40.678183,
-                              "lng" : -73.94416129999999
+                              "lat" : 40.7066744,
+                              "lng" : -74.00998629999999
                            },
                            "travel_mode" : "WALKING"
                         },
                         {
                            "distance" : {
-                              "text" : "0.1 mi",
-                              "value" : 234
-                           },
-                           "duration" : {
-                              "text" : "3 mins",
-                              "value" : 178
-                           },
-                           "end_location" : {
-                              "lat" : 40.6782332,
-                              "lng" : -73.9469381
-                           },
-                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAtlantic Ave\u003c/b\u003e",
-                           "maneuver" : "turn-right",
-                           "polyline" : {
-                              "points" : "a}gwF`fibM[hP"
-                           },
-                           "start_location" : {
-                              "lat" : 40.6780899,
-                              "lng" : -73.9441714
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "26 ft",
-                              "value" : 8
+                              "text" : "144 ft",
+                              "value" : 44
                            },
                            "duration" : {
                               "text" : "1 min",
-                              "value" : 10
+                              "value" : 35
                            },
                            "end_location" : {
-                              "lat" : 40.6783042,
-                              "lng" : -73.9469307
+                              "lat" : 40.706821,
+                              "lng" : -74.0091
                            },
-                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eNew York Ave\u003c/b\u003e",
-                           "maneuver" : "turn-right",
-                           "polyline" : {
-                              "points" : "}}gwFjwibMMA"
-                           },
-                           "start_location" : {
-                              "lat" : 40.6782332,
-                              "lng" : -73.9469381
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "292 ft",
-                              "value" : 89
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 70
-                           },
-                           "end_location" : {
-                              "lat" : 40.67838,
-                              "lng" : -73.94821999999999
-                           },
-                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAtlantic Ave\u003c/b\u003e",
+                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eWilliam St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
                            "maneuver" : "turn-left",
                            "polyline" : {
-                              "points" : "k~gwFhwibMC`AEvAAj@?JCn@"
+                              "points" : "}mmwFp~ubMAEACACACACWSYWYS"
                            },
                            "start_location" : {
-                              "lat" : 40.6783042,
-                              "lng" : -73.9469307
+                              "lat" : 40.7063932,
+                              "lng" : -74.0095309
                            },
                            "travel_mode" : "WALKING"
                         }
@@ -165,162 +117,119 @@
                   },
                   {
                      "distance" : {
-                        "text" : "7.6 mi",
-                        "value" : 12303
+                        "text" : "3.8 mi",
+                        "value" : 6106
                      },
                      "duration" : {
-                        "text" : "13 mins",
-                        "value" : 780
+                        "text" : "14 mins",
+                        "value" : 810
                      },
                      "end_location" : {
-                        "lat" : 40.6996,
-                        "lng" : -73.80852999999999
+                        "lat" : 40.75529,
+                        "lng" : -73.987495
                      },
-                     "html_instructions" : "Train towards West Hempstead",
+                     "html_instructions" : "Subway towards Wakefield - 241 St",
                      "polyline" : {
-                        "points" : "{~gwFj_jbMFgCBcABoA@]HaDJgF@o@D{A?KJsFJgE@u@@s@@MLoGH{CDeB@YDsBJcGD{@ByA@[LiGHiDDgB?GFgCJgG@UBmABkAJaEHoD@}@Bw@@w@@e@FeCFsCDsBBw@@c@DkBFgDFaCDoA@w@Bw@DaBPsHHwEX}Jn@a[`@qQb@gUFiC@m@BcAH_BFaANaCJ{ANsB@[Bo@Ba@@k@?uBAmCKkIKsDQsFOsDEu@g@}HI_AYiDu@uHIs@}@sHGa@mAmIi@aDSeAeBgJsAeHO{@e@aCwCuO[eBg@gCmIyc@UkAiDqQcCsMiCaNsCgO[gBUsAm@_DsByKeEwT{BqLiCyMiB{JgCaNmB_KoBmK{DkSoA{GgDsQeBaJuBaLyAyHkCiNiGq\\AIkAoF_A_Fs@sD_@{Be@iC_@qAe@kBc@aBKWk@{BCMM}@MsAAi@EkB?CMoBAG{@sI}AmI{@\\"
+                        "points" : "spmwFz{ubMoBeBuAsAaI_IqCkCIEIGMCKCK?K@KDKHURiDrDSRUPeAp@SNSNQRQVOZK\\mAhDmBrFELEJGHGHGDGDGBI@I?I?KCICKEKGKIcFqDGE}NsKECGCECECECGCEAGCEAGAGAGCE?GAGAwC[aUyBw`@uDiCUm@GUCYGWIUIo@WwAs@kRaJ}NcHe@Ug@Uk@[c@WuEyCaSqM_RyLqRkMwRkMw]gU"
                      },
                      "start_location" : {
-                        "lat" : 40.67838,
-                        "lng" : -73.94821999999999
+                        "lat" : 40.706821,
+                        "lng" : -74.0091
                      },
                      "transit_details" : {
                         "arrival_stop" : {
                            "location" : {
-                              "lat" : 40.6996,
-                              "lng" : -73.80852999999999
+                              "lat" : 40.75529,
+                              "lng" : -73.987495
                            },
-                           "name" : "Jamaica"
+                           "name" : "Times Sq - 42 St"
                         },
                         "arrival_time" : {
-                           "text" : "7:42pm",
+                           "text" : "7:04pm",
                            "time_zone" : "America/New_York",
-                           "value" : 1427845320
+                           "value" : 1427929470
                         },
                         "departure_stop" : {
                            "location" : {
-                              "lat" : 40.67838,
-                              "lng" : -73.94821999999999
+                              "lat" : 40.706821,
+                              "lng" : -74.0091
                            },
-                           "name" : "Nostrand Avenue"
+                           "name" : "Wall St"
                         },
                         "departure_time" : {
-                           "text" : "7:29pm",
+                           "text" : "6:51pm",
                            "time_zone" : "America/New_York",
-                           "value" : 1427844540
+                           "value" : 1427928660
                         },
-                        "headsign" : "West Hempstead",
+                        "headsign" : "Wakefield - 241 St",
                         "line" : {
                            "agencies" : [
                               {
-                                 "name" : "Long Island Rail Road",
-                                 "phone" : "1 718-558-7400",
-                                 "url" : "http://web.mta.info/lirr"
+                                 "name" : "MTA New York City Transit",
+                                 "phone" : "1 718-330-1234",
+                                 "url" : "http://www.mta.info/"
                               }
                            ],
-                           "color" : "#00a1de",
-                           "name" : "West Hempstead",
-                           "text_color" : "#ffffff",
+                           "color" : "#ee352e",
+                           "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/us-ny-mta/2.png",
+                           "name" : "7 Avenue Express",
+                           "short_name" : "2",
+                           "url" : "http://web.mta.info/nyct/service/pdf/t2cur.pdf",
                            "vehicle" : {
-                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/rail.png",
-                              "name" : "Train",
-                              "type" : "HEAVY_RAIL"
+                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/subway.png",
+                              "name" : "Subway",
+                              "type" : "SUBWAY"
                            }
                         },
-                        "num_stops" : 2
+                        "num_stops" : 6
                      },
                      "travel_mode" : "TRANSIT"
                   },
                   {
                      "distance" : {
-                        "text" : "6.2 mi",
-                        "value" : 9912
+                        "text" : "0.3 mi",
+                        "value" : 504
                      },
                      "duration" : {
-                        "text" : "9 mins",
-                        "value" : 540
+                        "text" : "6 mins",
+                        "value" : 374
                      },
                      "end_location" : {
-                        "lat" : 40.74584,
-                        "lng" : -73.90297
+                        "lat" : 40.7591131,
+                        "lng" : -73.98439759999999
                      },
-                     "html_instructions" : "Train towards Penn Station",
+                     "html_instructions" : "Walk to Theater District, New York, NY, USA",
                      "polyline" : {
-                        "points" : "oclwFhvnaMz@]|AlIz@rI@Fn@`EHbAJ|ABx@?H?pACx@A`@Ab@KzAStCQxAg@|C]rA]jA[~@gAfCS`@m@hAaBhCiB`CeBtBiAnA[\\[^_CnCoBzBSPSTSRuA`BY`@g@h@e@h@{DnEuHxIeDvD_FtFkCvCcEzEyBfCeEzEIHmE~EGHi@p@iAlA{@`Ai@n@yHdJqC~DwCjFs@xAc@|@MXMZ[v@qAfDk@dB_@nAk@fBqA|EIVOj@Mj@q@dCYjAcDbMwAjF[pA{AvFaApDERM`@K`@]pAm@dC}@hD}@bDg@lBo@|BsAjFwBbI[vAQt@kC|J}C`LOp@Qn@gCdJiDjMaD|LIZCJqAvEEN{BxIM^e@jBABKb@CFKb@K`@GNADI\\K^kEpPw@~Ci@tBIXUx@K\\e@`By@|C_AjDCLo@`Ca@vAENyB~GcGjRuAhESl@Sl@_IzUY|@_@bAELsBbEOXORW`@S^S^e@r@iAnAIJyAjBmCnCGFaA`AIFo@p@eDvD}@`A}AbBgAnAkDzDoCzCSPa@f@]^CE"
+                        "points" : "q_wwFztqbM[SwByAeC}A_C_ByA_A_@_@kAs@s@c@{BwAHWHW"
                      },
                      "start_location" : {
-                        "lat" : 40.6996,
-                        "lng" : -73.80852999999999
-                     },
-                     "transit_details" : {
-                        "arrival_stop" : {
-                           "location" : {
-                              "lat" : 40.74584,
-                              "lng" : -73.90297
-                           },
-                           "name" : "Woodside"
-                        },
-                        "arrival_time" : {
-                           "text" : "7:59pm",
-                           "time_zone" : "America/New_York",
-                           "value" : 1427846340
-                        },
-                        "departure_stop" : {
-                           "location" : {
-                              "lat" : 40.6996,
-                              "lng" : -73.80852999999999
-                           },
-                           "name" : "Jamaica"
-                        },
-                        "departure_time" : {
-                           "text" : "7:50pm",
-                           "time_zone" : "America/New_York",
-                           "value" : 1427845800
-                        },
-                        "headsign" : "Penn Station",
-                        "line" : {
-                           "agencies" : [
-                              {
-                                 "name" : "Long Island Rail Road",
-                                 "phone" : "1 718-558-7400",
-                                 "url" : "http://web.mta.info/lirr"
-                              }
-                           ],
-                           "color" : "#0039a6",
-                           "name" : "Port Jefferson",
-                           "text_color" : "#ffffff",
-                           "vehicle" : {
-                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/rail.png",
-                              "name" : "Train",
-                              "type" : "HEAVY_RAIL"
-                           }
-                        },
-                        "num_stops" : 1
-                     },
-                     "travel_mode" : "TRANSIT"
-                  },
-                  {
-                     "distance" : {
-                        "text" : "75 ft",
-                        "value" : 23
-                     },
-                     "duration" : {
-                        "text" : "1 min",
-                        "value" : 23
-                     },
-                     "end_location" : {
-                        "lat" : 40.74563,
-                        "lng" : -73.902984
-                     },
-                     "html_instructions" : "Walk to Woodside - 61 St",
-                     "polyline" : {
-                        "points" : "oduwFpdabMh@@"
-                     },
-                     "start_location" : {
-                        "lat" : 40.74584,
-                        "lng" : -73.90297
+                        "lat" : 40.75529,
+                        "lng" : -73.987495
                      },
                      "steps" : [
+                        {
+                           "distance" : {
+                              "text" : "0.3 mi",
+                              "value" : 481
+                           },
+                           "duration" : {
+                              "text" : "6 mins",
+                              "value" : 351
+                           },
+                           "end_location" : {
+                              "lat" : 40.759211,
+                              "lng" : -73.984638
+                           },
+                           "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003e7th Ave\u003c/b\u003e toward \u003cb\u003eW 42nd St\u003c/b\u003e",
+                           "polyline" : {
+                              "points" : "q_wwFztqbM[SwByAeC}A_C_ByA_A_@_@kAs@s@c@{BwA"
+                           },
+                           "start_location" : {
+                              "lat" : 40.75529,
+                              "lng" : -73.987495
+                           },
+                           "travel_mode" : "WALKING"
+                        },
                         {
                            "distance" : {
                               "text" : "75 ft",
@@ -331,157 +240,17 @@
                               "value" : 23
                            },
                            "end_location" : {
-                              "lat" : 40.74563,
-                              "lng" : -73.902984
+                              "lat" : 40.7591131,
+                              "lng" : -73.98439759999999
                            },
+                           "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eW 47th St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                           "maneuver" : "turn-right",
                            "polyline" : {
-                              "points" : "oduwFpdabMh@@"
+                              "points" : "axwwF~bqbMHWHW"
                            },
                            "start_location" : {
-                              "lat" : 40.74584,
-                              "lng" : -73.90297
-                           },
-                           "travel_mode" : "WALKING"
-                        }
-                     ],
-                     "travel_mode" : "WALKING"
-                  },
-                  {
-                     "distance" : {
-                        "text" : "1.8 mi",
-                        "value" : 2845
-                     },
-                     "duration" : {
-                        "text" : "4 mins",
-                        "value" : 240
-                     },
-                     "end_location" : {
-                        "lat" : 40.749145,
-                        "lng" : -73.86952699999999
-                     },
-                     "html_instructions" : "Subway towards Flushing - Main St",
-                     "polyline" : {
-                        "points" : "ecuwFrdabMiCch@iBi^aDao@uCik@qCgk@"
-                     },
-                     "start_location" : {
-                        "lat" : 40.74563,
-                        "lng" : -73.902984
-                     },
-                     "transit_details" : {
-                        "arrival_stop" : {
-                           "location" : {
-                              "lat" : 40.749145,
-                              "lng" : -73.86952699999999
-                           },
-                           "name" : "Junction Blvd"
-                        },
-                        "arrival_time" : {
-                           "text" : "8:10pm",
-                           "time_zone" : "America/New_York",
-                           "value" : 1427847030
-                        },
-                        "departure_stop" : {
-                           "location" : {
-                              "lat" : 40.74563,
-                              "lng" : -73.902984
-                           },
-                           "name" : "Woodside - 61 St"
-                        },
-                        "departure_time" : {
-                           "text" : "8:06pm",
-                           "time_zone" : "America/New_York",
-                           "value" : 1427846790
-                        },
-                        "headsign" : "Flushing - Main St",
-                        "line" : {
-                           "agencies" : [
-                              {
-                                 "name" : "MTA New York City Transit",
-                                 "phone" : "1 718-330-1234",
-                                 "url" : "http://www.mta.info/"
-                              }
-                           ],
-                           "color" : "#b933ad",
-                           "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/us-ny-mta/7X.png",
-                           "name" : "Flushing Express",
-                           "short_name" : "7X",
-                           "url" : "http://web.mta.info/nyct/service/pdf/t7cur.pdf",
-                           "vehicle" : {
-                              "icon" : "//maps.gstatic.com/mapfiles/transit/iw/6/subway.png",
-                              "name" : "Subway",
-                              "type" : "SUBWAY"
-                           }
-                        },
-                        "num_stops" : 1
-                     },
-                     "travel_mode" : "TRANSIT"
-                  },
-                  {
-                     "distance" : {
-                        "text" : "0.2 mi",
-                        "value" : 290
-                     },
-                     "duration" : {
-                        "text" : "4 mins",
-                        "value" : 211
-                     },
-                     "end_location" : {
-                        "lat" : 40.7499463,
-                        "lng" : -73.86682759999999
-                     },
-                     "html_instructions" : "Walk to Queens, NY, USA",
-                     "polyline" : {
-                        "points" : "cyuwFpszaMEo@SiDU{DU}DYPaAd@"
-                     },
-                     "start_location" : {
-                        "lat" : 40.749145,
-                        "lng" : -73.86952699999999
-                     },
-                     "steps" : [
-                        {
-                           "distance" : {
-                              "text" : "0.1 mi",
-                              "value" : 234
-                           },
-                           "duration" : {
-                              "text" : "3 mins",
-                              "value" : 166
-                           },
-                           "end_location" : {
-                              "lat" : 40.7494884,
-                              "lng" : -73.8665487
-                           },
-                           "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eRoosevelt Ave\u003c/b\u003e toward \u003cb\u003e97th St\u003c/b\u003e",
-                           "polyline" : {
-                              "points" : "cyuwFpszaMEo@SiDU{DU}D"
-                           },
-                           "start_location" : {
-                              "lat" : 40.749145,
-                              "lng" : -73.86952699999999
-                           },
-                           "travel_mode" : "WALKING"
-                        },
-                        {
-                           "distance" : {
-                              "text" : "184 ft",
-                              "value" : 56
-                           },
-                           "duration" : {
-                              "text" : "1 min",
-                              "value" : 45
-                           },
-                           "end_location" : {
-                              "lat" : 40.7499463,
-                              "lng" : -73.86682759999999
-                           },
-                           "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003e99th St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
-                           "maneuver" : "turn-left",
-                           "polyline" : {
-                              "points" : "i{uwF|`zaMYPaAd@"
-                           },
-                           "start_location" : {
-                              "lat" : 40.7494884,
-                              "lng" : -73.8665487
+                              "lat" : 40.759211,
+                              "lng" : -73.984638
                            },
                            "travel_mode" : "WALKING"
                         }
@@ -493,7 +262,7 @@
             }
          ],
          "overview_polyline" : {
-            "points" : "s}gwF~eibMP@[hPMAC`AGbCCz@N{GXwMp@k\\n@eYbBox@n@iY\\eOb@uQpAsm@p@c]PaDZ}EXaF@aDMyM]gLUiFq@}JoA_NgAgJuAoJ}@gFyDmSiFyXuP_}@{XkzAeGk[qF}YiNut@}Mqs@uK{k@mAyFyDySeA}Do@yBo@iCM}@MsAGuCMsB}@{I}AmI{@\\z@]|AlI|@zIn@`EHbANvCEvDM~Be@nFg@|C]rAy@jC{AhDm@hAaBhCiB`CeBtBeBlB_H|Hg@h@oBbCmArAqNhPuU`X_IbJwEhFq@z@eCnCcJtKqC~DwCjFwAvC[t@mB~EkAtDk@fBqA|EYbA}F`UqGfV}@hDkBnHeBpGcChJsCzK}CrLmDrMyCtKkIh[eBnGyEzQ_@rAcGpUs@nCaCvIuCrKyMdb@aKtZe@pAcC|Eg@t@g@~@e@r@iAnAcBvBaF`FuEhF{CdDwKxL_AfACEh@@sFmgAwHk{AwCwl@i@eJU}DYPaAd@"
+            "points" : "uomwFlavbMv@{AAECGu@s@iCyBwKsK{CqCWKWCWFa@\\}DfE{AbAg@^c@j@[x@gEvLOROJQDS?UGWMuVuQYOy@WmD_@yv@oHwD]o@Km@Sqf@qU}C_Bi`Aqn@oq@sc@sCmBeG}DyA_A_@_@_CwA{BwAHWHW"
          },
          "summary" : "",
          "warnings" : [
