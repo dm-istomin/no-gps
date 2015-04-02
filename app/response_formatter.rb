@@ -26,7 +26,7 @@ class ResponseFormatter
   end
 
   def trip_steps
-    format_trip_steps(google_api_data["routes"][0]["legs"][0]["steps"]) + ". Walk until you reach #{google_api_data['routes'][0]['legs'][0]['end_address']}"
+    format_trip_steps(google_api_data["routes"][0]["legs"][0]["steps"]) + ". Walk until you reach #{google_api_data['routes'][0]['legs'][0]['end_address']}."
   end
 
   private
