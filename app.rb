@@ -12,3 +12,4 @@ end
 
 require './app/response_formatter'
 require './app/google_maps_api'
+require './app/parsed_input'
