@@ -1,0 +1,311 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 48.863211,
+               "lng" : 2.3345414
+            },
+            "southwest" : {
+               "lat" : 48.85897010000001,
+               "lng" : 2.2934068
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "3.4 km",
+                  "value" : 3447
+               },
+               "duration" : {
+                  "text" : "43 mins",
+                  "value" : 2564
+               },
+               "end_address" : "Champ de Mars, Eiffel Tower, 5 Avenue Anatole France, 75007 Paris, France",
+               "end_location" : {
+                  "lat" : 48.85897010000001,
+                  "lng" : 2.2934068
+               },
+               "start_address" : "Louvre Museum, 75001 Paris, France",
+               "start_location" : {
+                  "lat" : 48.8613555,
+                  "lng" : 2.3345414
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "41 m",
+                        "value" : 41
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 48.8611422,
+                        "lng" : 2.3341197
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e toward \u003cb\u003ePlace du Carrousel\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "offiH{}fMFBFDDFDFDHBJ@J@J@J"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8613555,
+                        "lng" : 2.3345414
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 126
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 97
+                     },
+                     "end_location" : {
+                        "lat" : 48.8601075,
+                        "lng" : 2.3334357
+                     },
+                     "html_instructions" : "Exit the roundabout onto \u003cb\u003ePlace du Carrousel\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "cefiHg{fMBD@D@@@@@?B@DBLFvBfAXNFDFDFD"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8611422,
+                        "lng" : 2.3341197
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 211
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 171
+                     },
+                     "end_location" : {
+                        "lat" : 48.8607092,
+                        "lng" : 2.3306935
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eQuai François Mitterrand\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "u~eiH_wfMGb@gAdIg@zD"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8601075,
+                        "lng" : 2.3334357
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 171
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 135
+                     },
+                     "end_location" : {
+                        "lat" : 48.8595728,
+                        "lng" : 2.3293037
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003ePont Royal\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "mbfiHyefMJh@Hj@~@n@|AbAZTRt@"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8607092,
+                        "lng" : 2.3306935
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "71 m",
+                        "value" : 71
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : {
+                        "lat" : 48.8598405,
+                        "lng" : 2.3284286
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eQuai Anatole France\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "i{eiHc}eMER[|ASz@"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8595728,
+                        "lng" : 2.3293037
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.0 km",
+                        "value" : 1010
+                     },
+                     "duration" : {
+                        "text" : "12 mins",
+                        "value" : 723
+                     },
+                     "end_location" : {
+                        "lat" : 48.8631526,
+                        "lng" : 2.3158259
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "_}eiHuweMKPEFEHELq@hB[z@KXIXG\\a@pBUfA_@hBc@`CSfAIb@ERIf@]lB_A`FGd@[zAiArFUdAUfAa@pB[rAc@hBENALCNCLANAL?N?TBdEFtC"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8598405,
+                        "lng" : 2.3284286
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 726
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 523
+                     },
+                     "end_location" : {
+                        "lat" : 48.8628726,
+                        "lng" : 2.3059293
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "uqfiH}hcMALAF?F@dBDlE@tA?^?@?B?B@n@D~G?B@DBL?@FzKDhI@p@@VB^B\\Bb@@zA@`B@n@"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8631526,
+                        "lng" : 2.3158259
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 451
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 343
+                     },
+                     "end_location" : {
+                        "lat" : 48.8626494,
+                        "lng" : 2.2998063
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eVoie Expresse Rive Gauche\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "}ofiHakaMEZ?ZCp@AV?Z?XDdI@xFDhCBf@J|AX~D"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8628726,
+                        "lng" : 2.3059293
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 140
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 98
+                     },
+                     "end_location" : {
+                        "lat" : 48.8619237,
+                        "lng" : 2.2982645
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eVoie Expresse Rive Gauche\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "qnfiHyd`MDLBJDJDJHL@BDFBDFJHLDJFTVbA@DH^FRFNPX"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8626494,
+                        "lng" : 2.2998063
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "55 m",
+                        "value" : 55
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : {
+                        "lat" : 48.861706,
+                        "lng" : 2.2975819
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eQuai Branly\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "_jfiHc{_Mh@fC"
+                     },
+                     "start_location" : {
+                        "lat" : 48.8619237,
+                        "lng" : 2.2982645
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 445
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 351
+                     },
+                     "end_location" : {
+                        "lat" : 48.85897010000001,
+                        "lng" : 2.2934068
+                     },
+                     "html_instructions" : "Take the crosswalk",
+                     "polyline" : {
+                        "points" : "uhfiH{v_MTULf@J^Rn@\\bAf@jAVh@Td@^p@NRxAxBdA~APXlB|CPXHL"
+                     },
+                     "start_location" : {
+                        "lat" : 48.861706,
+                        "lng" : 2.2975819
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "offiH{}fMNHJNLl@DPBFLFfDdBNJoAhJg@zDJh@Hj@~@n@xBxARt@ERo@xCQXyA|DUr@i@nCmBzJw@lEgAfGeBnIiBrIo@vCGz@BzEDbDDbI@tB@x@DbHDRNxWLxBB|D@n@EZClAAr@LbVNdC^lEXp@R\\NX^xAZhAPXh@fCTULf@^nAdAnCl@nAn@dA~GpKZf@"
+         },
+         "summary" : "Voie Expresse Rive Gauche",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
