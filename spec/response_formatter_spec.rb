@@ -21,6 +21,40 @@ describe "ResponseFormatter" do
     end
   end
 
+  describe "#trip_time" do
+    it "should return a string with total trip time for transit(subway)" do
+      formatter = ResponseFormatter.new(@google_api_response[:subway_transit])
+      expect(formatter.trip_time).to eq "21 mins"
+    end
+
+    it "should return a string with total trip time for transit(bus)" do
+      formatter = ResponseFormatter.new(@google_api_response[:bus_transit])
+      expect(formatter.trip_time).to eq "16 mins"
+    end
+
+    it "should return a string with total trip time for walking" do
+      formatter = ResponseFormatter.new(@google_api_response[:walking])
+      expect(formatter.trip_time).to eq "43 mins"
+    end
+  end
+
+  describe "#trip_distance" do
+    it "should return a string with the total distance for transit(subway)" do
+      formatter = ResponseFormatter.new(@google_api_response[:subway_transit])
+      expect(formatter.trip_distance).to eq "4.2 mi"
+    end
+
+    it "should return a string with the total distance for transit(bus)" do
+      formatter = ResponseFormatter.new(@google_api_response[:bus_transit])
+      expect(formatter.trip_distance).to eq "1.6 mi"
+    end
+
+    it "should return a string with the total distance for walking" do
+      formatter = ResponseFormatter.new(@google_api_response[:walking])
+      expect(formatter.trip_distance).to eq "3.4 km"
+    end
+  end
+
   describe "#directions" do
     it "should return transit directions in a simple, readable format" do
       formatter = ResponseFormatter.new(@google_api_response[:subway_transit])
