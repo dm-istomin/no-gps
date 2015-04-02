@@ -33,9 +33,23 @@ class ResponseFormatter
 
   def format_trip_steps(steps, directions = [])
     steps.each do |current_step|
-      directions << current_step["html_instructions"]
-      format_trip_steps(current_step["steps"], directions) if current_step["steps"]
+      if current_step["travel_mode"] == "WALKING"
+        directions << current_step["html_instructions"]
+        if current_step["steps"]
+          format_trip_steps(current_step["steps"], directions)
+        end
+      elsif current_step["travel_mode"] == "TRANSIT"
+        directions << format_transit_steps(current_step)
+      end
     end
     clean_html(directions.join(". "))
+  end
+
+  def format_transit_steps(steps)
+    train = steps["transit_details"]["line"]["short_name"]
+    departure_time = steps["transit_details"]["departure_time"]["text"]
+    departure_stop = steps["transit_details"]["departure_stop"]["name"]
+    arrival_stop = steps["transit_details"]["arrival_stop"]["name"]
+    "At #{departure_time}, take #{train} from #{departure_stop} #{steps['html_instructions']}; exit at #{arrival_stop}"
   end
 end
