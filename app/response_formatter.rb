@@ -22,21 +22,22 @@ class ResponseFormatter
   end
 
   def trip_steps
-    format_trip_steps(google_api_data["routes"][0]["legs"][0]["steps"])
+    format_trip_steps(google_api_data["routes"][0]["legs"][0]["steps"]) + ". Walk until you reach #{google_api_data['routes'][0]['legs'][0]['end_address']}"
   end
 
   private
 
   def clean_html(html_string)
-    html_string.gsub(/<[^>]*>/, "")
+    html_string.gsub(/<[^>]*>/, "").gsub(/Destination will be on the (right|left)/, "")
   end
 
   def format_trip_steps(steps, directions = [])
     steps.each do |current_step|
       if current_step["travel_mode"] == "WALKING"
-        directions << current_step["html_instructions"]
         if current_step["steps"]
           format_trip_steps(current_step["steps"], directions)
+        else
+          directions << current_step["html_instructions"]
         end
       elsif current_step["travel_mode"] == "TRANSIT"
         directions << format_transit_steps(current_step)
