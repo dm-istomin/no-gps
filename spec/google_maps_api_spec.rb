@@ -1,3 +1,5 @@
+require_relative 'spec_helper'
+
 describe "GoogleMapsAPI" do
   describe "#get_directions" do
     pending "makes requests to the Google API, only set to non-pending if API handling needs to be tested"
