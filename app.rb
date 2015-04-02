@@ -11,3 +11,4 @@ Twilio.configure do |config|
 end
 
 require './app/response_formatter'
+require './app/google_maps_api'
