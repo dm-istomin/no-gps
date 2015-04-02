@@ -20,7 +20,7 @@ describe "ResponseFormatter" do
   describe "#directions" do
     it "should return directions in an easy-to-understand format" do
       expect(@formatter.directions)
-      .to eq "[21 minutes]: Head northeast on Wall Street towards William St. Turn left onto William St. At 6:43, take the 2 from Wall Street towards Wakefield - 214 St; get off at 34 St - Penn Station. Head northeast on 7th Ave toward W 42nd St. Slight left onto Broadway. Turn left on W 46th St.Destination will be on the right - Times Square, Manhattan, NY."
+      .to eq "[21 minutes, 4.8 miles]: Head northeast on Wall Street towards William St. Turn left onto William St. At 6:43, take the 2 from Wall Street towards Wakefield - 214 St; get off at 34 St - Penn Station. Head northeast on 7th Ave toward W 42nd St. Slight left onto Broadway. Turn left on W 46th St.Destination will be on the right - Times Square, Manhattan, NY."
     end
   end
 end
