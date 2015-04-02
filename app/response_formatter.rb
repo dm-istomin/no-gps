@@ -10,7 +10,11 @@ class ResponseFormatter
   end
 
   def directions
-    "[#{trip_time}, #{trip_distance}]: #{trip_steps}"
+    if status_ok?
+      "[#{trip_time}, #{trip_distance}]: #{trip_steps}"
+    else
+      "Something appears to have gone wrong: error #{google_api_data["status"]}. Try re-phrasing your query, and if that doesn't work it's probably something on our end. Sorry!"
+    end
   end
 
   def trip_time
