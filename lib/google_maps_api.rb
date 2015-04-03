@@ -1,5 +1,5 @@
 module GoogleMapsAPI
-  def self.get_directions(from:, to:, mode: "transit")
+  def self.get_directions(from:, to:, mode:)
     request = RestClient.get "https://maps.googleapis.com/maps/api/directions/json",
               params: {mode: mode,
                        origin: from,

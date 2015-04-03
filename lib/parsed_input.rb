@@ -23,6 +23,8 @@ class ParsedInput
     elsif text.match(/bicycling|bike/)
       return 'bicycling'
     end
+    # default
+    return 'transit'
   end
 
   def valid?

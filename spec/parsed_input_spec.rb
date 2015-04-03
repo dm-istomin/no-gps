@@ -19,6 +19,7 @@ describe "ParsedInput" do
 
   describe "#mode" do
     before(:all) do
+      @no_mode_defined = ParsedInput.new("from penn station, new york to grand central, new york")
       @train_input = ParsedInput.new("train from penn station, new york to grand central, new york")
       @subway_input = ParsedInput.new("subway from penn station, new york to grand central, new york")
       @transit_input = ParsedInput.new("from penn station, new york to grand central, new york by transit")
@@ -26,6 +27,10 @@ describe "ParsedInput" do
       @driving_input = ParsedInput.new("drive from penn station, new york to grand central, new york by car")
       @walk_input = ParsedInput.new("walk from penn station, new york to grand central, new york")
       @bike_input = ParsedInput.new("from penn station, new york to grand central, new york by bike")
+    end
+
+    it "should return 'transit' as a default if nothing is found" do
+      expect(@no_mode_defined.mode).to eq "transit"
     end
 
     it "should return the correct transportation type for various 'transit' synonyms" do
