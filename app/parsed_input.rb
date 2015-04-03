@@ -14,11 +14,11 @@ class ParsedInput
   end
 
   def mode
-    if text.match(/walk/)
+    if text.match(/walk|on\sfoot/)
       return 'walking'
-    elsif text.match(/train|subway|bus|transit/)
+    elsif text.match(/train|subway|transit/)
       return 'transit'
-    elsif text.match(/car/)
+    elsif text.match(/car|driving|drive/)
       return 'driving'
     elsif text.match(/bicycling|bike/)
       return 'bicycling'
