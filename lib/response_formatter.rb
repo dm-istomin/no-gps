@@ -55,6 +55,6 @@ class ResponseFormatter
     departure_time = steps["transit_details"]["departure_time"]["text"]
     departure_stop = steps["transit_details"]["departure_stop"]["name"]
     arrival_stop = steps["transit_details"]["arrival_stop"]["name"]
-    "At #{departure_time}, take the #{transit} (#{steps['html_instructions']}) from #{departure_stop} ; exit at #{arrival_stop}"
+    "At #{departure_time}, take the #{transit} (#{steps['html_instructions']}) from #{departure_stop}; exit at #{arrival_stop}"
   end
 end
