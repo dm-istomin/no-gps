@@ -2,6 +2,7 @@ class ParsedInput
   attr_reader :text
 
   def initialize(text)
+    raise ArgumentError unless text.class == String
     @text = normalize(text)
   end
 
