@@ -1,5 +1,5 @@
 get "/" do
-  erb :test
+  erb :main
 end
 
 get "/directions" do
