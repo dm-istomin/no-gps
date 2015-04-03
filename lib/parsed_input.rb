@@ -25,6 +25,10 @@ class ParsedInput
     end
   end
 
+  def valid?
+    return !(origin.empty? || destination.empty?)
+  end
+
   private
   def normalize(string)
     string.gsub(/[^a-zA-Z0-9\s]/, '').downcase
