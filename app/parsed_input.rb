@@ -1,16 +1,32 @@
 class ParsedInput
   attr_reader :text
-  
+
   def initialize(text)
-    @text = text
+    @text = normalize(text)
   end
 
   def origin
+    text.match(/(?<=from\s)(.*?)(?=\sto\s)/).to_s.strip
   end
 
   def destination
+    text.match(/(?<=\sto\s)(.*?)(?=$)/).to_s.strip
   end
 
   def mode
+    if text.match(/walk/)
+      return 'walking'
+    elsif text.match(/train|subway|bus|transit/)
+      return 'transit'
+    elsif text.match(/car/)
+      return 'driving'
+    elsif text.match(/bicycling|bike/)
+      return 'bicycling'
+    end
+  end
+
+  private
+  def normalize(string)
+    string.gsub(/[^a-zA-Z0-9\s]/, '').downcase
   end
 end
