@@ -1,3 +1,3 @@
 get "/" do
-  "Hello world!"
+  erb :test
 end
