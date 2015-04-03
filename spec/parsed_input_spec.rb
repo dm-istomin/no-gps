@@ -47,4 +47,34 @@ describe "ParsedInput" do
       expect(@walk_input.mode).to eq "walking"
     end
   end
+
+  describe "#valid?" do
+    before(:all) do
+      @random_characters = ParsedInput.new("sdfadsfhw jfge")
+      @missing_addresses = ParsedInput.new("bike")
+      @missing_origin = ParsedInput.new("walk from to Leaning Tower of Pisa, Pisa, Italy")
+      @missing_destination = ParsedInput.new("walk from Reichstag Building, Germany to")
+      @valid_input = ParsedInput.new("walk from Capri Town, Italy to Belvedere Tragara, Italy")
+    end
+
+    it "should return false for an input of empty characters" do
+      expect(@random_characters.valid?).to eq false
+    end
+
+    it "should return false for an input that is missing addresses" do
+      expect(@missing_addresses.valid?).to eq false
+    end
+
+    it "should return false for an input that does not have an origin address" do
+      expect(@missing_origin.valid?).to eq false
+    end
+
+    it "should return false for an input that does not have a destination address" do
+      expect(@missing_destination.valid?).to eq false
+    end
+
+    it "should return true for an input that has both origin and destination" do
+      expect(@valid_input.valid?).to eq true
+    end
+  end
 end
