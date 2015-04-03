@@ -1,5 +1,5 @@
 task :environment do
-  require './app.rb'
+  require './config/environment'
 end
 
 task :console => :environment do
