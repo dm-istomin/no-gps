@@ -59,13 +59,13 @@ describe "ResponseFormatter" do
     it "should return transit directions in a simple, readable format" do
       formatter = ResponseFormatter.new(@google_api_response[:subway_transit])
       expect(formatter.directions)
-      .to eq "[21 mins, 4.2 mi]: Head southeast on Wall St toward William St. Turn left onto William St. At 6:51pm, take the 2 (Subway towards Wakefield - 241 St) from Wall St ; exit at Times Sq - 42 St. Head northeast on 7th Ave toward W 42nd St. Turn right onto W 47th St. Walk until you reach Theater District, New York, NY, USA."
+      .to eq "[21 mins, 4.2 mi]: Head southeast on Wall St toward William St. Turn left onto William St. At 6:51pm, take the 2 (Subway towards Wakefield - 241 St) from Wall St; exit at Times Sq - 42 St. Head northeast on 7th Ave toward W 42nd St. Turn right onto W 47th St. Walk until you reach Theater District, New York, NY, USA."
     end
 
     it "should return bus directions in a simple, readable format" do
       formatter = ResponseFormatter.new(@google_api_response[:bus_transit])
       expect(formatter.directions)
-      .to eq "[16 mins, 1.6 mi]: At 2:02pm, take the 36 (Bus towards Foggy Bottom Station) from SW Independence Av & SW 6th St ; exit at NW 15th St & NW F St. Head north on 15th St NW toward G St NW. Turn left onto Pennsylvania Ave NW. Walk until you reach White House Rose Garden, 1600 Pennsylvania Avenue Northwest, Washington, DC 20500, USA."
+      .to eq "[16 mins, 1.6 mi]: At 2:02pm, take the 36 (Bus towards Foggy Bottom Station) from SW Independence Av & SW 6th St; exit at NW 15th St & NW F St. Head north on 15th St NW toward G St NW. Turn left onto Pennsylvania Ave NW. Walk until you reach White House Rose Garden, 1600 Pennsylvania Avenue Northwest, Washington, DC 20500, USA."
     end
 
     it "should return walking directions in a simple, readable format" do
