@@ -2,8 +2,13 @@ get "/" do
   erb :main
 end
 
+get "/sms-directions" do
+  request = params[:Body]
+  redirect_to "/directions?query=#{request}"
+end
+
 get "/directions" do
-  error_msg = "Not enough addresses; cannot give directions until two are provided!"
+  error_msg = "Cannot give directions until two addresses are provided in the format 'from [address] to [address]'!"
   begin
     query = ParsedInput.new(params[:query])
   rescue ArgumentError
