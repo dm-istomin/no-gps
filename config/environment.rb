@@ -19,4 +19,4 @@ set :public_folder, 'public'
 
 # Require all files inside the lib/ and app/controllers directories
 Dir[File.join(APP_ROOT, 'lib', '*.rb')].each { |file| require file }
-Dir[File.join(APP_ROOT, 'app', 'controllers', '*.rb')].each { |file| require file }
+Dir[File.join(APP_ROOT, 'app', '*.rb')].each { |file| require file }
