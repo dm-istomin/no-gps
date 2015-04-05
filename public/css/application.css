@@ -90,9 +90,24 @@ strong {
   margin: 0 auto;
 }
 
+@media (min-width: 550px) {
+  .phone {
+    position: absolute;
+    top: -10rem;
+    max-width: 61%;
+  }
+}
+
 #lead-content {
   background-image: url("../img/background-polygons.jpg");
   background-size: cover;
+}
+
+@media (min-width: 550px) {
+  #lead-content {
+    margin-top: 10rem;
+    margin-bottom: 17.5rem;
+  }
 }
 
 .steps {
@@ -112,19 +127,6 @@ strong {
   background-color: #334D5C;
   color: white;
   text-shadow: none;
-}
-
-@media (min-width: 550px) {
-  #lead-content {
-    margin-top: 10rem;
-    margin-bottom: 17.5rem;
-  }
-
-  .phone {
-    position: absolute;
-    top: -10rem;
-    max-width: 61%;
-  }
 }
 
 @media (min-width: 400px) {
