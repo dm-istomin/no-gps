@@ -4,11 +4,6 @@ require 'dotenv'
 Dotenv.load
 Bundler.require
 
-Twilio.configure do |config|
-  config.account_sid = ENV['ACCOUNT_SID']
-  config.auth_token = ENV['AUTH_TOKEN']
-end
-
 APP_ROOT =  Pathname.new(File.expand_path('../', __dir__))
 APP_NAME =  APP_ROOT.basename.to_s
 
