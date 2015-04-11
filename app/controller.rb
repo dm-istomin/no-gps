@@ -1,3 +1,7 @@
+get "/" do
+  "Hello world! The server is live!"
+end
+
 get "/sms-directions" do
   request = params[:Body]
   redirect_to "/directions?query=#{request}"
